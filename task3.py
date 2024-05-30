@@ -3,7 +3,7 @@ from tkinter import Tk, Entry, Button, StringVar
 class Calculator:
     def __init__(self, master):
         master.title("Calculator")
-        master.geometry('380x465+0+0')
+        master.geometry('360x465+0+0')
         master.config(bg='#333333')
         master.resizable(False, False)
 
