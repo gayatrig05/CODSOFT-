@@ -25,7 +25,7 @@ def delete_task():
         choice = int(input('Enter the Serial number of Task you want to Delete:'))
 
         if 0 < choice <=len(tasks):
-            del tasks1[choice-1]
+            del tasks[choice-1]
             print('Task has been removed✅')
         else:
             print('Invalid Serial Number')
